@@ -1,0 +1,4 @@
+{
+  "name": "Miniconda TeXLive",
+  "image": "ghcr.io/dusansimic/texlive-images:2024"
+}
