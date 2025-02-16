@@ -46,4 +46,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            TEXLIVE_VERSION=${{ fromJson(steps.meta.outputs.json).labels['me.dusansimic.texlive-images.texlive'] }}
+            TEXLIVE_VERSION=${{ fromJson(steps.meta.outputs.json).labels['me.dusansimic.experiment-miniconda-texlive-image.texlive'] }}
